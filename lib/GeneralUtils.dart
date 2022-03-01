@@ -19,7 +19,7 @@ class GeneralUtils {
     }
   }
 
-  // Converting Temp in Celsius
+  // Converting Temperature in Celsius
   convertTempInCelsius(String tempInK) {
     var tempInCelsius = double.parse(tempInK) - 273.15;
     tempInCelsius = double.parse(tempInCelsius.toStringAsFixed(0));
